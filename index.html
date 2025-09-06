@@ -10,14 +10,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <main class="lg:max-w-screen-xl mx-auto px-6 lg:px-28 font-manrope">
+        <header class=" flex flex-col justify-between items-center pt-10 mb-20 lg:flex-row">
+            <!-- text part -->
+            <div>
+                <h1 class="font-extrabold text-6xl lg:text-7xl">It's good <br>
+                    tea time at The  Tea House</h1>
+                <p class="font-medium text-lg my-7 text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum
+                    Satisfaction To Your Taste Buds.</p>
+                <button
+                    class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] p-[18px] rounded-[10px] text-[white] text-xl font-bold">Explore
+                    More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <!-- img part -->
+            <div>
+                <img src="images/banner.png" alt="">
+                <div class="flex items-center gap-3 shadow-lg bg-[white] absolute py-4 px-5 rounded-lg bottom-4 lg:top-80">
+                    <i class="fa-etch fa-solid fa-star text-orange-300 text-5xl"></i>
+                    <div>
+                        <h4 class="font-extrabold text-3xl">5.00</h4>
+                        <p class="text-[#777777]  font-semibold">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card part -->
 
-    </header>
-    <main>
-
+        </header>
     </main>
     <footer>
 
