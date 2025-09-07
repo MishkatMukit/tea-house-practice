@@ -164,7 +164,7 @@
             <!-- news card container -->
             <div class="flex flex-col lg:flex-row gap-6">
                 <!-- cards -->
-                <div class="p-5 shadow-xl  max-w-[360px] rounded-xl">
+                <div class="p-5 shadow-xl  max-w-[360px] rounded-xl mx-auto">
                     <img src="images/news-1.png" alt="">
                     <!-- card-content -->
                     <div class="pt-5 max-w-[300px]">
@@ -174,7 +174,7 @@
                         <a class="no-underline text-[#1C1C1C] font-extrabold" href="">Learn More</a>
                     </div>
                 </div>
-                <div class="p-5 shadow-xl max-w-[360px] rounded-xl">
+                <div class="p-5 shadow-xl max-w-[360px] rounded-xl mx-auto">
                     <img src="images/news-2.png" alt="">
                     <!-- card-content -->
                     <div class="pt-5 max-w-[300px]">
@@ -184,7 +184,7 @@
                         <a class="no-underline text-[#1C1C1C] font-extrabold" href="">Learn More</a>
                     </div>
                 </div>
-                <div class="p-5 shadow-xl  max-w-[360px] rounded-xl">
+                <div class="p-5 shadow-xl  max-w-[360px] rounded-xl mx-auto">
                     <img src="images/news-3.png" alt="">
                     <!-- card-content -->
                     <div class="pt-5 max-w-[300px]">
@@ -200,34 +200,47 @@
     <footer class="bg-orange-100">
         <!-- container -->
          <div class="lg:max-w-screen-xl mx-auto px-6 lg:px-28 font-manrope flex flex-col py-16 lg:py-32">
-            <div class="pb-4 border-b-2">
+            <div class="pb-4 border-b-2 lg:flex justify-between">
                 <img src="images/cup.png" alt="">
+                <div class="lg:flex items-center gap-3 ">
+                    <h4 class="font-bold text-xl">Ready to get strated?</h4>
+                    <button
+                    class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] p-[18px] rounded-[10px] text-[white] text-xl font-bold">Get
+                    Started <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
             </div>
             <!-- bottom -->
             <div class="grid grid-cols-2 lg:grid-cols-4 pt-12 mx-auto gap-4">
                 <div>
-                    <h2 class="font-bold">Quick Links</h2>
-                    <p><a class="no-underline" href="">Home</a></p>
-                    <p><a class="no-underline" href="">About Us</a></p>
-                    <p><a class="no-underline" href="">Insurance</a></p>
-                    <p><a class="no-underline" href="">Privacy Policy</a></p>
+                    <h2 class="font-bold text-lg">Quick Links</h2>
+                    <p><a class="text-[#777777] no-underline" href="">Home</a></p>
+                    <p><a class="text-[#777777] no-underline" href="">About Us</a></p>
+                    <p><a class=" text-[#777777] no-underline" href="">Insurance</a></p>
+                    <p><a class="text-[#777777] no-underline" href="">Privacy Policy</a></p>
                 </div>
                 <div>
-                    <h2 class="font-bold">Our Service</h2>
-                    <p><a class="no-underline" href="">Life Insurance</a></p>
-                    <p><a class="no-underline" href="">Car Insurance</a></p>
-                    <p><a class="no-underline" href="">Health Insurance</a></p>
-                    <p><a class="no-underline" href="">House Insurance</a></p>
+                    <h2 class="font-bold text-lg">Our Service</h2>
+                    <p><a class=" text-[#777777] no-underline" href="">Life Insurance</a></p>
+                    <p><a class="text-[#777777] no-underline" href="">Car Insurance</a></p>
+                    <p><a class=" text-[#777777] no-underline" href="">Health Insurance</a></p>
+                    <p><a class="text-[#777777] no-underline" href="">House Insurance</a></p>
                 </div>
                 <div>
-                    <h2 class="font-bold">Help</h2>
-                    <p><a class="no-underline" href="">FAQs</a></p>
-                    <p><a class="no-underline" href="">Contact Us</a></p>
+                    <h2 class="font-bold text-lg">Help</h2>
+                    <p><a class="text-[#777777] no-underline" href="">FAQs</a></p>
+                    <p><a class="text-[#777777] no-underline" href="">Contact Us</a></p>
                 </div>
                 <div>
-                    <h2 class="font-bold text-2xl">Subscribe to our newsletter</h2>
-                    <input type="email" placeholder="Email address" class="border-b-1 bg-none py-3">
-                    <img src="images/" alt="">
+                    <h2 class="font-bold text-2xl pb-5">Subscribe to our newsletter</h2>
+                    <input type="email" placeholder="Email address" class="border-b-1 bg-none py-3 w-2/3">
+                    <div class="inline-flex items-center w-7 h-7 justify-center rounded-[50%] bg-gradient-to-l from-[#FF0000] to-[#FF8938]">
+                        <i class="text-white fa-solid fa-chevron-right  "></i>
+                    </div>
+                    <div class="flex gap-5  py-5">
+                        <a class="text-xl" href=""><i class="fa-brands fa-facebook-f"></i></i></a>
+                        <a class="text-xl" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a class="text-xl" href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
          </div>
